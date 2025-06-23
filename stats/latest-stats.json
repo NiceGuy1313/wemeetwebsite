@@ -1,0 +1,42 @@
+{
+  "q17": {
+    "correct": 0,
+    "wrong": 2
+  },
+  "q2": {
+    "correct": 10,
+    "wrong": 3
+  },
+  "q5": {
+    "correct": 0,
+    "wrong": 3
+  },
+  "q7": {
+    "correct": 1,
+    "wrong": 10
+  },
+  "q20": {
+    "correct": 0,
+    "wrong": 2
+  },
+  "q19": {
+    "correct": 1,
+    "wrong": 0
+  },
+  "q14": {
+    "correct": 1,
+    "wrong": 0
+  },
+  "q13": {
+    "correct": 0,
+    "wrong": 1
+  },
+  "q15": {
+    "correct": 0,
+    "wrong": 1
+  },
+  "q11": {
+    "correct": 1,
+    "wrong": 1
+  }
+}

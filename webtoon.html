@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html, body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-[683px] h-[1024px] relative overflow-hidden bg-white">
+      <img
+        src="./img/background1.png"
+        class="w-[682.67px] h-[1024px] absolute left-[-1px] top-[-1px] object-cover"
+      />
+      
+      <!-- 홈 버튼 -->
+      <a href="home.html">
+        <img
+          src="./img/go-home.png"
+          class="w-[138px] h-[84px] absolute left-6 top-[27px] object-cover"
+          alt="홈으로 이동"
+        />
+      </a>
+      <img
+        src="./img/webtoon.png"
+        class="w-[591px] h-[379px] absolute left-[41px] top-[132px] object-cover"
+    /><img
+        src="./img/index.png"
+        class="w-[582px] h-[410px] absolute left-[46px] top-[490px] object-cover"
+    />
+    <!-- 문구 영역 -->
+    <p onclick="openPopup('popup1')" class="w-[254px] absolute left-72 top-[620px] text-2xl text-left text-white cursor-pointer">
+    1. 언어 장벽 없는 회의
+    </p>
+    <p onclick="openPopup('popup2')" class="w-[254px] absolute left-72 top-[688px] text-2xl text-left text-white cursor-pointer">
+    2. 자동 보고서의 비밀
+    </p>
+    <p onclick="openPopup('popup3')" class="w-[254px] absolute left-72 top-[746px] text-2xl text-left text-white cursor-pointer">
+    3. 악성 이메일
+    </p>
+    <p onclick="openPopup('popup4')" class="w-[254px] absolute left-72 top-[807px] text-2xl text-left text-white cursor-pointer">
+    4. 코로나 문의 챗봇
+    </p>
+
+    <!-- 팝업 레이아웃 -->
+    <div id="popup1" onclick="closePopup('popup1')" class="hidden fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center">
+        <div class="relative">
+            <!-- ❌ 닫기 버튼 -->
+            <button onclick="closePopup('popup1')" class="absolute top-2 right-2 text-white text-2xl font-bold z-50 hover:text-red-400">
+            &times;
+            </button>
+            
+            <!-- 웹툰 이미지 -->
+            <img src="./img/webtoon1.png" class="w-[80vw] max-w-[600px] rounded-lg shadow-lg" />
+        </div>
+    </div>
+
+    <div id="popup2" onclick="closePopup('popup2')" class="hidden fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center">
+        <div class="relative">
+            <!-- ❌ 닫기 버튼 -->
+            <button onclick="closePopup('popup1')" class="absolute top-2 right-2 text-white text-2xl font-bold z-50 hover:text-red-400">
+            &times;
+            </button>
+            
+            <!-- 웹툰 이미지 -->
+            <img src="./img/webtoon3.png" class="w-[80vw] max-w-[600px] rounded-lg shadow-lg" />
+        </div>
+    </div>
+
+    <div id="popup3" onclick="closePopup('popup3')" class="hidden fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center">
+        <div class="relative">
+            <!-- ❌ 닫기 버튼 -->
+            <button onclick="closePopup('popup1')" class="absolute top-2 right-2 text-white text-2xl font-bold z-50 hover:text-red-400">
+            &times;
+            </button>
+            
+            <!-- 웹툰 이미지 -->
+            <img src="./img/webtoon4.png" class="w-[80vw] max-w-[600px] rounded-lg shadow-lg" />
+        </div>
+    </div>
+
+    <div id="popup4" onclick="closePopup('popup4')" class="hidden fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center">
+        <div class="relative">
+            <!-- ❌ 닫기 버튼 -->
+            <button onclick="closePopup('popup1')" class="absolute top-2 right-2 text-white text-2xl font-bold z-50 hover:text-red-400">
+            &times;
+            </button>
+            
+            <!-- 웹툰 이미지 -->
+            <img src="./img/webtoon5.png" class="w-[80vw] max-w-[600px] rounded-lg shadow-lg" />
+        </div>
+    </div>
+    <!-- 스크립트 -->
+    <script>
+    function openPopup(id) {
+        document.getElementById(id).classList.remove('hidden');
+    }
+    function closePopup(id) {
+        document.getElementById(id).classList.add('hidden');
+    }
+    </script>
+    </p>
+    </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html, body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-[683px] h-[1024px] relative overflow-hidden bg-white">
+      <img
+        src="./img/background1.png"
+        class="w-[682.67px] h-[1024px] absolute left-[-1px] top-[-1px] object-cover"
+      />
+      <!-- 홈 버튼 -->
+      <a href="home.html">
+        <img
+          src="./img/go-home.png"
+          class="w-[138px] h-[84px] absolute left-6 top-[27px] object-cover"
+          alt="홈으로 이동"
+        />
+      </a>
+    <img
+        id="feedback"
+        src="./img/answer.png"
+        class="w-[236px] h-[145px] absolute left-[46px] top-[700px] object-cover cursor-pointer z-20"
+        onclick="showAnswerExplanation()"
+    />
+
+    <!-- 유지: 시각 구성 그대로 -->
+    <div id="next-button" onclick="goToNextQuestion()" class="w-[258px] h-[155.5px] absolute left-[355.5px] top-[725px] cursor-pointer z-20">
+        <img
+            src="./img/another2.png"
+            class="w-[58px] h-4 absolute left-[62.3px] top-[-30.01px] object-cover"
+        />
+        <img
+            src="./img/another2.png"
+            class="w-[58px] h-4 absolute left-[129.41px] top-[-26.44px] object-cover"
+        />
+        <img
+            id="next-button"
+            src="./img/another.png"
+            class="..."
+            onclick="goToNextQuestion()"
+        />
+    </div>
+    <!-- 1번 보기: A -->
+    <img
+      src="./img/answer1.png"
+      class="w-[180px] h-[52px] absolute left-28 top-[544px] object-cover cursor-pointer"
+      onclick="checkAnswer(0)"
+    />
+    <div class="absolute left-[170px] top-[556px] z-30 text-lg font-bold text-black">A</div>
+
+    <!-- 2번 보기: B -->
+    <img
+      src="./img/answer2.png"
+      class="w-[183px] h-[52px] absolute left-[107px] top-[613px] object-cover cursor-pointer"
+      onclick="checkAnswer(1)"
+    />
+    <div class="absolute left-[170px] top-[625px] z-30 text-lg font-bold text-black">B</div>
+
+    <!-- 3번 보기: C -->
+    <img
+      src="./img/answer3.png"
+      class="w-[201px] h-[52px] absolute left-[368px] top-[550px] object-cover cursor-pointer"
+      onclick="checkAnswer(2)"
+    />
+    <div class="absolute left-[435px] top-[562px] z-30 text-lg font-bold text-black">C</div>
+
+    <!-- 4번 보기: D -->
+    <img
+      src="./img/answer4.png"
+      class="w-[207px] h-[52px] absolute left-[368px] top-[613px] object-cover cursor-pointer"
+      onclick="checkAnswer(3)"
+    />
+    <div class="absolute left-[435px] top-[625px] z-30 text-lg font-bold text-black">D</div>
+    
+    <div class="absolute left-[200px] top-[280px] w-[500px] text-black leading-relaxed space-y-2 font-semibold text-[18px] z-20">
+        <p id="question-text">문제 로딩 중...</p>
+        <p id="choice-A">A:</p>
+        <p id="choice-B">B:</p>
+        <p id="choice-C">C:</p>
+        <p id="choice-D">D:</p>
+    </div>
+
+    <img src="./img/quizboard.png" class="w-[641px] h-[421px] absolute left-6 top-[111px] object-none" />
+    <!-- 정답/해설 팝업 -->
+    <div id="answer-popup" class="hidden fixed inset-0 bg-black bg-opacity-60 z-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-xl shadow-xl w-[320px] text-center space-y-3">
+            <p id="correct-answer" class="text-lg font-bold text-blue-600">정답:</p>
+            <p id="explanation" class="text-sm text-gray-800">해설이 여기에 나옵니다.</p>
+        </div>
+    </div>
+
+    <!-- 오답 팝업 -->
+    <div id="wrong-popup" class="hidden fixed inset-0 bg-black bg-opacity-60 z-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-xl shadow-xl w-[320px] text-center space-y-3">
+            <p class="text-lg font-bold text-red-600">❌ 틀렸습니다!</p>
+            <p class="text-sm text-gray-800">다시 한 번 생각해보세요.</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="./quiz.js"></script>
+  </body>
+</html>
+
+

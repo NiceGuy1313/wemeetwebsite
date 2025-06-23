@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q1",
+    "question": "Azure AI의 주요 구성 요소는 무엇인가요?",
+    "choices": ["Azure Storage", "Azure AI Services", "Azure Functions", "Azure DevOps"],
+    "answer": "B",
+    "explanation": "Azure AI의 주요 구성 요소 중 하나는 Azure AI Services로, 다양한 AI 기능을 API로 제공하며, 이러한 서비스는 AI 솔루션을 구축하는 데 필수적입니다."
+  },
+  {
+    "id": "q2",
+    "question": "Azure AI에서 'Document Intelligence'의 주요 기능은 무엇인가요?",
+    "choices": ["이미지 인식", "문서에서 데이터를 추출", "자연어 처리", "음성 인식"],
+    "answer": "B",
+    "explanation": "Document Intelligence는 문서에서 정보를 추출하고 처리하는 기능을 제공하여 사용자에게 데이터의 가치를 높여줍니다."
+  },
+  {
+    "id": "q3",
+    "question": "Azure OpenAI Service의 주요 기능은 무엇인가요?",
+    "choices": ["기계 번역", "이미지 생성", "대화형 AI 모델 제공", "데이터베이스 관리"],
+    "answer": "C",
+    "explanation": "Azure OpenAI Service는 대화형 AI 모델을 제공하여 자연어 처리 및 생성 작업을 수행할 수 있도록 합니다."
+  },
+  {
+    "id": "q4",
+    "question": "Azure AI를 사용하는 주된 이점은 무엇인가요?",
+    "choices": ["로컬 서버 필요", "높은 비용", "신속한 AI 솔루션 개발", "수동 데이터 처리"],
+    "answer": "C",
+    "explanation": "Azure AI를 사용하면 신속하게 AI 솔루션을 개발할 수 있는 클라우드 기반의 유연성과 확장성을 제공합니다."
+  },
+  {
+    "id": "q5",
+    "question": "Azure AI Services에서 'Speech Services'의 기능 중 하나는 무엇인가요?",
+    "choices": ["이미지 분석", "텍스트 변환", "음성 변환", "데이터 시각화"],
+    "answer": "C",
+    "explanation": "Speech Services는 음성을 텍스트로 변환하는 기능을 제공하여 사용자가 음성 입력을 통해 상호작용할 수 있게 합니다."
+  },
+  {
+    "id": "q6",
+    "question": "AI-900 시험에서 가장 중요한 주제는 무엇인가요?",
+    "choices": ["Azure DevOps", "Azure AI의 기본 개념", "Azure 데이터베이스 관리", "Azure 보안"],
+    "answer": "B",
+    "explanation": "AI-900 시험의 주요 주제는 Azure AI의 기본 개념과 기능에 대한 이해입니다."
+  },
+  {
+    "id": "q7",
+    "question": "Azure AI Foundry의 주요 목적은 무엇인가요?",
+    "choices": ["AI 모델의 교육", "데이터 저장", "네트워크 관리", "소프트웨어 개발"],
+    "answer": "A",
+    "explanation": "Azure AI Foundry는 AI 모델을 교육하고 배포하는 데 필요한 도구와 환경을 제공하여 AI 솔루션의 개발을 지원합니다."
+  },
+  {
+    "id": "q8",
+    "question": "AI-900 시험에서 'Generative AI'의 정의는 무엇인가요?",
+    "choices": ["기존 데이터를 분석하는 AI", "새로운 콘텐츠를 생성하는 AI", "데이터를 시각화하는 AI", "기계 번역을 수행하는 AI"],
+    "answer": "B",
+    "explanation": "Generative AI는 기존의 데이터를 기반으로 새로운 콘텐츠를 생성하는 AI 기술을 의미합니다."
+  },
+  {
+    "id": "q9",
+    "question": "Azure AI의 'Natural Language Processing'의 주된 사용 사례는 무엇인가요?",
+    "choices": ["이미지 처리", "음성 인식", "텍스트 분석", "비디오 편집"],
+    "answer": "C",
+    "explanation": "Natural Language Processing(NLP)은 텍스트 데이터를 분석하고 이해하는 데 주로 사용됩니다."
+  },
+  {
+    "id": "q10",
+    "question": "Azure AI 서비스를 통해 사용자는 어떤 작업을 수행할 수 있나요?",
+    "choices": ["물리적 서버 설치", "AI 모델 구축 및 배포", "데이터베이스 쿼리 작성", "로컬 소프트웨어 개발"],
+    "answer": "B",
+    "explanation": "Azure AI 서비스를 통해 사용자는 AI 모델을 쉽게 구축하고 배포하여 다양한 AI 작업을 수행할 수 있습니다."
+  },
+  {
+    "id": "q11",
+    "question": "Azure에서 AI 모델을 배포하기 위한 서비스는 무엇인가요?",
+    "choices": ["Azure Functions", "Azure AI Services", "Azure Logic Apps", "Azure DevOps"],
+    "answer": "B",
+    "explanation": "Azure AI Services는 AI 모델을 구축하고 배포하기 위한 다양한 도구와 서비스를 제공합니다."
+  },
+  {
+    "id": "q12",
+    "question": "Azure Cognitive Services의 주요 목적은 무엇인가요?",
+    "choices": ["데이터 저장", "AI 기능을 제공", "네트워크 보안", "클라우드 컴퓨팅"],
+    "answer": "B",
+    "explanation": "Azure Cognitive Services는 비즈니스 애플리케이션에 AI 기능을 통합할 수 있도록 다양한 API를 제공합니다."
+  },
+  {
+    "id": "q13",
+    "question": "Azure AI의 'Computer Vision' 서비스의 기능은 무엇인가요?",
+    "choices": ["텍스트 분석", "이미지 및 비디오 인식", "자연어 처리", "음성 인식"],
+    "answer": "B",
+    "explanation": "Computer Vision 서비스는 이미지와 비디오를 분석하여 객체를 인식하고 태그를 추가하는 기능을 제공합니다."
+  },
+  {
+    "id": "q14",
+    "question": "Azure AI에서 'Language Understanding (LUIS)'의 기능은 무엇인가요?",
+    "choices": ["사용자의 감정 분석", "자연어 처리와 의도 인식", "음성 합성", "이미지 분류"],
+    "answer": "B",
+    "explanation": "LUIS는 사용자의 입력을 이해하고 그 의도를 파악하여 자연어 처리를 지원하는 서비스입니다."
+  },
+  {
+    "id": "q15",
+    "question": "Azure AI의 'Speech Service'를 사용하면 어떤 기능을 구현할 수 있나요?",
+    "choices": ["문서 요약", "음성 인식 및 합성", "이미지 분석", "데이터 시각화"],
+    "answer": "B",
+    "explanation": "Speech Service는 음성을 텍스트로 변환하거나 텍스트를 음성으로 변환하는 기능을 제공합니다."
+  },
+  {
+    "id": "q16",
+    "question": "Azure AI의 'Text Analytics' 서비스에서 제공하는 기능은 무엇인가요?",
+    "choices": ["문서 저장", "감정 분석, 키워드 추출", "이미지 인식", "데이터 마이닝"],
+    "answer": "B",
+    "explanation": "Text Analytics는 문서의 감정을 분석하고 주요 키워드를 추출하는 기능을 제공합니다."
+  },
+  {
+    "id": "q17",
+    "question": "Azure AI에서 'Personalizer'의 주요 용도는 무엇인가요?",
+    "choices": ["데이터베이스 관리", "개인화된 추천 제공", "이미지 처리", "네트워크 최적화"],
+    "answer": "B",
+    "explanation": "Personalizer는 사용자에게 개인화된 콘텐츠 및 추천을 제공하여 사용자 경험을 개선하는 서비스입니다."
+  },
+  {
+    "id": "q18",
+    "question": "Azure AI에서 'Form Recognizer'의 주된 기능은 무엇인가요?",
+    "choices": ["이미지 생성", "문서에서 데이터 추출", "음성 인식", "데이터 시각화"],
+    "answer": "B",
+    "explanation": "Form Recognizer는 문서에서 구조화된 데이터를 자동으로 추출하여 처리하는 기능을 제공합니다."
+  },
+  {
+    "id": "q19",
+    "question": "Azure AI의 'Anomaly Detector' 서비스는 무엇을 분석하나요?",
+    "choices": ["텍스트 데이터", "비정상적인 패턴", "이미지 데이터", "음성 데이터"],
+    "answer": "B",
+    "explanation": "Anomaly Detector는 데이터에서 비정상적인 패턴을 탐지하여 이상 징후를 식별하는 기능을 제공합니다."
+  },
+  {
+    "id": "q20",
+    "question": "Azure AI의 'Metrics Advisor'의 주요 기능은 무엇인가요?",
+    "choices": ["비즈니스 성과 모니터링", "고객 관리", "데이터 저장", "클라우드 인프라 관리"],
+    "answer": "A",
+    "explanation": "Metrics Advisor는 비즈니스 성과를 모니터링하고 데이터 이상을 탐지하여 경고하는 기능을 제공합니다."
+  }
+]
