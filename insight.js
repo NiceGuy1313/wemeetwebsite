@@ -4,7 +4,7 @@ const correctBox = document.getElementById('correct-box');
 
 Promise.all([
   fetch("quiz.json").then((res) => res.json()),
-  fetch("/stats/latest-stats.json").then((res) => res.json())
+  fetch('/stats/latest-stats.json?t=${Date.now()}').then((res) => res.json())
 ])
   .then(([quizData, stats]) => {
     const statList = quizData.map((q, idx) => {
