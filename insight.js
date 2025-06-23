@@ -27,12 +27,12 @@ Promise.all([
     });
     const mostWrong = [...statList]
       .filter(s => s.total > 0)
-      .sort((a, b) => b.wrong - a.wrong)
+      .sort((a, b) => b.rate - a.rate)
       .slice(0, 3);
 
     const mostCorrect = [...statList]
       .filter(s => s.total > 0)
-      .sort((a, b) => b.correct - a.correct)
+      .sort((a, b) => a.rate - b.rate)
       .slice(0, 3);
 
     renderCardList(mostWrong, wrongBox, '🔴');
