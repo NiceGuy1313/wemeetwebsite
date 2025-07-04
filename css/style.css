@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cceeff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+}
+
+.frame {
+  position: relative;
+  width: 800px;
+  height: 1000px;
+  background-color: #cceeff;
+  overflow: hidden;
+}
+
+.main-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 0;
+}
+
+.menu-button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.menu-button img {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.menu-button img.home-button {
+  width: 130px;
+}
+
+.menu-button:hover img {
+  transform: scale(1.05);
+}

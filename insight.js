@@ -4,7 +4,7 @@ const correctBox = document.getElementById('correct-box');
 
 Promise.all([
   fetch("quiz.json").then((res) => res.json()),
-  fetch('/stats/latest-stats.json?t=${Date.now()}').then((res) => res.json())
+  fetch(`/stats/latest-stats.json?t=${Date.now()}`).then((res) => res.json())
 ])
   .then(([quizData, stats]) => {
     const statList = quizData.map((q, idx) => {
@@ -27,12 +27,12 @@ Promise.all([
     });
     const mostWrong = [...statList]
       .filter(s => s.total > 0)
-      .sort((a, b) => b.rate - a.rate)
+      .sort((a, b) => a.rate - b.rate)
       .slice(0, 3);
 
     const mostCorrect = [...statList]
       .filter(s => s.total > 0)
-      .sort((a, b) => a.rate - b.rate)
+      .sort((a, b) => b.rate - a.rate)
       .slice(0, 3);
 
     renderCardList(mostWrong, wrongBox, '🔴');

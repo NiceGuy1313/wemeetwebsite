@@ -1,0 +1,473 @@
+[
+  {
+    "question": "온라인에서 유해하거나 부적절한 콘텐츠를 자동으로 감지하고 필터링하는 데 사용되는 AI 워크로드는?",
+    "options": [
+      "지식 마이닝",
+      "생성형 AI",
+      "콘텐츠 모더레이션",
+      "문서 인텔리전스"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "애플리케이션에서 AI 개인화(Personalization)의 주요 목적은?",
+    "options": [
+      "콘텐츠 추천",
+      "이미지 생성",
+      "유해 콘텐츠 감지",
+      "인간 언어 분석"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "인간 언어를 분석하고 해석하는 데 도움을 주는 AI 워크로드는?",
+    "options": [
+      "자연어 처리(NLP)",
+      "콘텐츠 모더레이션",
+      "컴퓨터 비전",
+      "문서 인텔리전스"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "OCR(광학 문자 인식)을 사용하여 이미지에서 텍스트를 추출하는 AI 워크로드는?",
+    "options": [
+      "자연어 처리(NLP)",
+      "지식 마이닝",
+      "컴퓨터 비전",
+      "생성형 AI"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "텍스트나 영상과 같은 비정형 데이터를 분석하여 인사이트를 도출하는 데 사용되는 AI 워크로드는?",
+    "options": [
+      "문서 인텔리전스",
+      "지식 마이닝",
+      "컴퓨터 비전",
+      "자연어 처리(NLP)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "시스템이 텍스트나 이미지 등 새로운 콘텐츠를 생성하도록 하는 AI 워크로드는?",
+    "options": [
+      "자연어 처리(NLP)",
+      "생성형 AI",
+      "지식 마이닝",
+      "문서 인텔리전스"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Azure AI Content Safety에서 텍스트 내 유해 콘텐츠를 스캔하는 데 사용되는 API는?",
+    "options": [
+      "Analyze Text API",
+      "Analyze Image API",
+      "Custom Categories API",
+      "Moderate Text API"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "AI 시스템이 모든 사용자 집단에서 안전하고 공정하게 작동하도록 보장하는 AI 원칙은?",
+    "options": [
+      "공정성(Fairness)",
+      "투명성(Transparency)",
+      "포용성(Inclusiveness)",
+      "책임성(Accountability)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "이미지나 영상과 같은 시각적 콘텐츠를 분석하는 데 사용되는 AI 워크로드는?",
+    "options": [
+      "자연어 처리(NLP)",
+      "지식 마이닝",
+      "컴퓨터 비전",
+      "생성형 AI"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "대량의 문서를 처리하고 핵심 정보를 추출하는 데 사용되는 AI 워크로드는?",
+    "options": [
+      "자연어 처리(NLP)",
+      "생성형 AI",
+      "콘텐츠 모더레이션",
+      "문서 인텔리전스"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "기계 학습(ML)에서 회귀 분석(regression)의 주요 목적은 무엇인가요?",
+    "options": [
+      "데이터를 명확한 범주로 분류하기 위함",
+      "유사한 데이터 포인트를 군집화하기 위함",
+      "변수에 따라 수치형 결과를 예측하기 위함",
+      "이미지와 영상을 분석하기 위함"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "다음 중 지도 학습(supervised learning)의 예시는 무엇인가요?",
+    "options": [
+      "K-평균 클러스터링",
+      "주택 가격을 특징에 따라 예측하기",
+      "구매 이력을 기반으로 고객 세분화",
+      "금융 거래에서 이상 탐지"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "이진 분류(binary classification)에서 두 클래스 사이의 확률을 예측하는 데 흔히 사용되는 알고리즘은 무엇인가요?",
+    "options": [
+      "선형 회귀",
+      "로지스틱 회귀",
+      "결정 트리",
+      "K-평균"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "모델 평가에서 F1 점수(F1 score)는 무엇을 나타내나요?",
+    "options": [
+      "클래스 간을 구분하는 모델의 능력",
+      "예측 오차의 평균",
+      "정밀도와 재현율 간의 균형",
+      "모델의 전체 정확도"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "ML 워크플로우에서 모델을 사용해 예측을 생성하는 단계는 무엇인가요?",
+    "options": [
+      "학습(Training)",
+      "추론(Inferencing)",
+      "검증(Validation)",
+      "데이터 준비(Data preparation)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "K-평균 클러스터링은 어떤 유형의 학습에 해당하나요?",
+    "options": [
+      "지도 학습",
+      "준지도 학습",
+      "강화 학습",
+      "비지도 학습"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "회귀 모델이 데이터의 변동성을 얼마나 잘 설명하는지를 측정하는 평가지표는 무엇인가요?",
+    "options": [
+      "평균 제곱 오차(MSE)",
+      "결정 계수(R²)",
+      "평균 제곱근 오차(RMSE)",
+      "평균 절대 오차(MAE)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "기존 데이터의 패턴을 기반으로 결측값을 추정해 보완하는 접근 방식은 무엇인가요?",
+    "options": [
+      "평균 대입(mean imputation)",
+      "예측 대입(predictive imputation)",
+      "불완전 데이터 제거",
+      "데이터 정규화"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "기계 학습에서 분류(classification)의 주요 목적은 무엇인가요?",
+    "options": [
+      "라벨이 없는 데이터에서 숨겨진 패턴 식별",
+      "수치형 결과 예측",
+      "데이터를 미리 정의된 범주에 할당",
+      "새로운 콘텐츠 생성"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "라벨 없이 유사한 데이터 포인트들을 그룹화하는 데 적합한 ML 기법은 무엇인가요?",
+    "options": [
+      "회귀",
+      "분류",
+      "클러스터링",
+      "딥러닝"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "알려진 변수들을 기반으로 수치형 결과를 예측하는 데 일반적으로 사용되는 머신러닝 기법은 무엇인가요?",
+    "options": [
+      "분류(Classification)",
+      "회귀(Regression)",
+      "클러스터링(Clustering)",
+      "딥러닝(Deep Learning, DL)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "회귀 분석에서 예측 오차의 평균을 부호 없이 계산해주는 지표는 무엇인가요?",
+    "options": [
+      "평균 제곱 오차(MSE)",
+      "결정 계수(R²)",
+      "평균 절대 오차(MAE)",
+      "평균 제곱근 오차(RMSE)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "이진 분류(binary classification)에서 결과의 확률을 추정하는 데 일반적으로 사용되는 알고리즘은 무엇인가요?",
+    "options": [
+      "K-평균 클러스터링",
+      "로지스틱 회귀",
+      "선형 회귀",
+      "결정 트리"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Azure의 자동화된 머신러닝(AutoML)은 주로 어떤 유형의 학습을 지원하나요?",
+    "options": [
+      "강화 학습",
+      "지도 학습",
+      "비지도 학습",
+      "유전 알고리즘"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "다중 클래스 분류(multiclass classification)에서 각 클래스마다 이진 분류기를 생성하는 방식은 무엇인가요?",
+    "options": [
+      "K-평균 클러스터링",
+      "One-vs-Rest (OVR)",
+      "다항 분류 알고리즘(Multinomial)",
+      "로지스틱 회귀"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Azure Machine Learning에서 여러 알고리즘을 자동으로 테스트하여 최적 모델을 찾는 기능은 무엇인가요?",
+    "options": [
+      "사용자 지정 스크립트 실행",
+      "AutoML",
+      "데이터셋 저장",
+      "배포 파이프라인"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "분류 모델에서 올바르게 식별된 양성(positive)의 비율을 나타내는 평가 지표는 무엇인가요?",
+    "options": [
+      "정확도(Accuracy)",
+      "정밀도(Precision)",
+      "재현율(Recall)",
+      "F1 점수"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "사전 라벨 없이 유사한 데이터 포인트들을 그룹화하는 머신러닝 기법은 무엇인가요?",
+    "options": [
+      "지도 학습",
+      "분류(Classification)",
+      "클러스터링(Clustering)",
+      "회귀(Regression)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "회귀 분석에서 예측값과 실제값 사이의 제곱 차이의 평균을 나타내는 용어는 무엇인가요?",
+    "options": [
+      "평균 절대 오차(MAE)",
+      "평균 제곱근 오차(RMSE)",
+      "평균 제곱 오차(MSE)",
+      "결정 계수(R² 점수)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "복잡한 예측 문제를 위해 데이터를 여러 층으로 처리하는 딥러닝 구조는 무엇인가요?",
+    "options": [
+      "서포트 벡터 머신(SVM)",
+      "결정 트리",
+      "신경망(Neural Network)",
+      "K-최근접 이웃(KNN)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "이미지 전체를 색상 점들로 구성된 격자(Grid)로 나누는 컴퓨터 비전의 기본 개념은 무엇인가요?",
+    "options": ["필터", "픽셀", "신경망", "라벨"],
+    "answer": 1
+  },
+  {
+    "question": "객체 감지(Object Detection)에서 이미지 내 물체의 위치를 정확히 표시하는 데 사용되는 방법은 무엇인가요?",
+    "options": ["OCR", "경계 상자(Bounding boxes)", "얼굴 인식", "이미지 분류"],
+    "answer": 1
+  },
+  {
+    "question": "컴퓨터 비전에서 합성곱(Convolution)의 목적은 무엇인가요?",
+    "options": [
+      "색상 반전을 감지하기 위함",
+      "이미지를 리사이즈하기 위함",
+      "픽셀 데이터에서 패턴을 식별하기 위함",
+      "라벨을 할당하기 위함"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Microsoft Azure의 컴퓨터 비전 도구 중 객체 감지 및 얼굴 분석을 주로 담당하는 서비스는 무엇인가요?",
+    "options": [
+      "Azure Cognitive Search",
+      "Azure AI Vision",
+      "Azure Machine Learning",
+      "Azure Kubernetes Service"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "이미지 분류와 같은 컴퓨터 비전 작업에 가장 널리 사용되는 신경망 유형은 무엇인가요?",
+    "options": [
+      "순환 신경망(RNN)",
+      "합성곱 신경망(CNN)",
+      "생성적 적대 신경망(GAN)",
+      "트랜스포머(Transformer)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "CNN에서 주요 정보를 유지하면서 특징 맵(feature map)의 크기를 줄이는 계층은 무엇인가요?",
+    "options": [
+      "합성곱 계층",
+      "완전 연결 계층",
+      "풀링 계층",
+      "활성화 함수"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "이미지 내의 텍스트를 읽고 해석하는 컴퓨터 비전 기술은 무엇인가요?",
+    "options": ["이미지 분류", "OCR", "얼굴 인식", "객체 감지"],
+    "answer": 1
+  },
+  {
+    "question": "AI에서 얼굴 인식 및 분석 기술과 관련된 주요 윤리적 문제는 무엇인가요?",
+    "options": ["색상 정확도 부족", "프라이버시 및 동의 문제", "높은 연산 비용", "제한된 데이터셋"],
+    "answer": 1
+  },
+  {
+    "question": "Azure의 AI Vision Studio에서 객체 감지 결과와 함께 제공되어 모델의 확신도를 나타내는 데이터는 무엇인가요?",
+    "options": ["픽셀 수", "신뢰도 점수(Confidence score)", "경계 상자의 색상", "파일 형식"],
+    "answer": 1
+  },
+  {
+    "question": "이미지 인식 과정에서 CNN의 활성화 함수는 어떤 역할을 하나요?",
+    "options": ["윤곽 패턴을 식별", "이미지 크기 축소", "예측에 대한 확률 할당", "이미지에 색상 추가"],
+    "answer": 2
+  },
+  {
+    "question": "다음 중 텍스트를 여러 언어로 즉시 번역할 수 있는 Azure AI 서비스는 무엇인가요?",
+    "options": ["Azure AI Language", "Azure AI Speech", "Azure AI Translator", "Azure AI Sentiment"],
+    "answer": 2
+  },
+  {
+    "question": "자연어 처리에서 명명된 개체 인식(NER)의 주요 기능은 무엇인가요?",
+    "options": ["감정 분석 수행", "언어 감지", "개체를 식별하고 분류", "핵심 구 문 추출"],
+    "answer": 2
+  },
+  {
+    "question": "Azure AI Speech의 어떤 기능이 실시간 음성의 전사를 가능하게 하나요?",
+    "options": ["텍스트 음성 변환", "요약(Summarization)", "실시간 음성-텍스트 변환", "사용자 지정 번역기(Custom Translator)"],
+    "answer": 2
+  },
+  {
+    "question": "자연어 처리에서 토크나이제이션(Tokenization)이란 무엇인가요?",
+    "options": ["각 개체에 고유 식별자를 부여하는 것", "텍스트를 음성으로 변환하는 것", "텍스트를 단어나 구로 나누는 것", "텍스트 내 언어를 감지하는 것"],
+    "answer": 2
+  },
+  {
+    "question": "Azure의 핵심 구문 추출(Key Phrase Extraction) 기능은 어떤 역할을 하나요?",
+    "options": ["텍스트 내 개체를 분류", "주요 개념이나 주제를 강조", "문서의 언어를 감지", "텍스트의 감정을 분석"],
+    "answer": 1
+  },
+  {
+    "question": "주민등록번호와 같은 민감한 정보를 식별하는 데 가장 적합한 Azure NLP 기능은 무엇인가요?",
+    "options": ["언어 감지", "핵심 구문 추출", "PII(개인 식별 정보) 감지", "감정 분석"],
+    "answer": 2
+  },
+  {
+    "question": "자연어 처리 과정에서 'the', 'an' 같은 의미 없는 일반 단어들을 제거하는 과정을 무엇이라 하나요?",
+    "options": ["표제어 추출(Lemmatization)", "불용어 제거(Stop-word removal)", "토크나이제이션(Tokenization)", "빈도 분석(Frequency analysis)"],
+    "answer": 1
+  },
+  {
+    "question": "Azure AI Language Studio에서 'Paris' 같은 개체를 특정 참조와 자동으로 연결할 때 사용하는 기능은 무엇인가요?",
+    "options": ["개체 인식(Entity recognition)", "개체 연결(Entity linking)", "언어 감지", "요약(Summarization)"],
+    "answer": 1
+  },
+  {
+    "question": "Azure AI Speech의 Fast Transcription API의 주요 목적은 무엇인가요?",
+    "options": ["텍스트 번역", "빠르고 동기적인 오디오 전사 제공", "오디오의 감정 분석", "텍스트를 자연스러운 음성으로 변환"],
+    "answer": 1
+  },
+  {
+    "question": "대량의 텍스트를 요약하여 핵심 문장만 추출하고자 할 때 사용할 수 있는 Azure 기능은 무엇인가요?",
+    "options": ["텍스트 음성 변환(Text-to-speech)", "요약(Summarization)", "언어 감지", "개체 인식(Entity recognition)"],
+    "answer": 1
+  },
+  {
+    "question": "Azure의 생성형 AI 기능 중, 텍스트 프롬프트를 기반으로 고유한 이미지를 생성하는 기능은 무엇인가요?",
+    "options": ["의미 기반 검색(Semantic search)", "DALL·E", "콘텐츠 모더레이션", "자연스러운 대화 생성"],
+    "answer": 1
+  },
+  {
+    "question": "트랜스포머 모델에서 임베딩(embedding)의 목적은 무엇인가요?",
+    "options": ["유해 콘텐츠를 식별하기 위함", "언어를 번역하기 위함", "단어 간 의미 관계를 인코딩하기 위함", "추천을 생성하기 위함"],
+    "answer": 2
+  },
+  {
+    "question": "트랜스포머 모델의 구성 요소 중, 입력 텍스트의 문맥(context)을 해석하는 역할을 하는 것은 무엇인가요?",
+    "options": ["디코더 블록(Decoder block)", "임베딩", "셀프 어텐션(Self-attention)", "인코더 블록(Encoder block)"],
+    "answer": 2
+  },
+  {
+    "question": "고객의 질문이나 문의에 자연스럽게 응답할 수 있는 능력이 요구되는 워크로드는 무엇인가요?",
+    "options": ["이미지 생성", "요약(Summarization)", "문맥 기반 질의응답(Contextual question answering)", "개인 맞춤형 추천"],
+    "answer": 2
+  },
+  {
+    "question": "Azure AI에서 다중 헤드 어텐션(Multihead Attention)은 어떤 역할을 하나요?",
+    "options": ["새로운 토큰 생성", "이상 탐지", "단어 간 관계를 다양한 관점에서 분석", "언어 간 번역"],
+    "answer": 2
+  },
+  {
+    "question": "대규모 언어 모델(LLM)에는 있지만 소규모 언어 모델(SLM)에는 일반적으로 없는 특징은 무엇인가요?",
+    "options": ["빠른 응답 속도", "높은 메모리 및 저장소 요구량", "낮은 에너지 소비", "손쉬운 온프레미스 배포"],
+    "answer": 1
+  },
+  {
+    "question": "Azure OpenAI의 모델 카탈로그(Model Catalog)를 사용하는 주요 장점은 무엇인가요?",
+    "options": ["사용자 정의 모델의 빠른 학습 시간", "다양한 사전 학습된 고성능 모델에 대한 접근", "OpenAI 모델 전용 사용", "이미지 생성 작업에만 사용 가능"],
+    "answer": 1
+  },
+  {
+    "question": "Azure의 생성형 AI에서 안전 시스템 레이어(safety system layer)는 어떤 방식으로 위험을 완화하나요?",
+    "options": ["사용자 기대치를 설정함", "유해하거나 부적절한 콘텐츠를 실시간 필터링", "모델 임베딩을 개선", "의미 기반 검색 기능 제공"],
+    "answer": 1
+  },
+  {
+    "question": "트랜스포머 모델에서 디코더 블록의 역할은 무엇인가요?",
+    "options": ["입력의 문맥을 해석", "인코딩된 입력을 기반으로 출력 시퀀스를 생성", "단어를 벡터로 임베딩", "특정 입력 토큰에 주의를 집중"],
+    "answer": 1
+  },
+  {
+    "question": "Microsoft가 권장하는 생성형 AI의 책임 있는 배포 전략은 무엇인가요?",
+    "options": ["자동 테스트에만 의존", "잠재적 위험 문서화를 피함", "즉시 전체 범위 배포", "사고 대응 계획을 포함한 단계적 배포"],
+    "answer": 3
+  }
+
+]
